@@ -668,22 +668,6 @@ wallet-service/
 
 ## Development
 
-### Running Tests
-
-```bash
-php artisan test
-```
-
-### Code Quality
-
-```bash
-# Run Laravel Pint (code style fixer)
-./vendor/bin/pint
-
-# Run PHPStan (static analysis)
-./vendor/bin/phpstan analyse
-```
-
 ### Logging
 
 All transactions and errors are logged in `storage/logs/laravel.log`
